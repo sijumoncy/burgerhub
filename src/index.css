@@ -1,3 +1,11 @@
+/* import font for title Autour+One */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer{
+    body {
+        @apply tracking-wider;
+    }
+}

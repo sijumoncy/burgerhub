@@ -4,6 +4,7 @@ export default {
     './index.html',
     './src/**/*.{js,ts,tsx,jsx}',
   ],
+  darkMode:'class',
   theme: {
     screens:{
       mobM:"375px",
@@ -23,6 +24,11 @@ export default {
         primary:'#e8cd9e',
         secondary:'#f05179',
         textPara:'##9f9597',
+        bgPrimary:'#fff',
+
+        textParaDark:'#6e7681',
+        bgPrimaryDark:'#0d1117',
+        bgSecondaryDark:'#161b22'
       },
       keyframes:{
         moveY:{

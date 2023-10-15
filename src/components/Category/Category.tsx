@@ -23,7 +23,7 @@ const cardData = [
     tagline: "Lorem ipsum dolor sit amet.",
     link: "#",
     imgName: "snack1.png",
-    bg:'bg-green-500'
+    bg:'bg-green-600'
   },
 ];
 
@@ -50,7 +50,7 @@ function Category() {
                 <h4 className="card__title">{card.title}</h4>
                 <p className="text-xs">{card.tagline}</p>
               </div>
-              <a href={card.link} className="text-black cursor-pointer">
+              <a href={card.link} className="text-black cursor-pointer hover:text-secondary">
                 Buy It
               </a>
             </div>

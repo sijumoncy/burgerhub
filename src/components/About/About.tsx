@@ -13,7 +13,7 @@ function About() {
           <img src={`/images/${aboutData.imageName}`} alt="about img" className="rounded-lg"/>
         </div>
         <div className="flex-1">
-          <h2 className="about__title">{aboutData.title}</h2>
+          <h2 className="section__title">{aboutData.title}</h2>
           <div className="seperator"/>
           <p className="para__text">{aboutData.description}</p>
           <ul className="grid grid-cols-2 py-5 space-y-1">

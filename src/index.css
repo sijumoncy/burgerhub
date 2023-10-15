@@ -5,11 +5,13 @@
 @tailwind utilities;
 
 @layer base{
+
     html {
         @apply scroll-smooth;
     }
     body {
-        @apply tracking-wider;
+        @apply tracking-wider dark:bg-bgPrimaryDark dark:text-white/90;
+
     }
 
     section {
@@ -31,7 +33,7 @@
 @layer utilities {
     .main__title,
     .card__title,
-    .about__title {
+    .section__title {
         @apply text-4xl font-bold uppercase lap:text-6xl;
     }
 
@@ -39,12 +41,12 @@
         @apply text-xl;
     }
 
-    .about__title{
+    .section__title{
         @apply text-3xl;
     }
 
     .para__text {
-        @apply text-textPara text-xs leading-5;
+        @apply text-textPara text-sm leading-5;
     }
 
     .seperator {

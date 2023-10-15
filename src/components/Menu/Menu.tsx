@@ -198,7 +198,7 @@ function Menu() {
     <section id="menu">
       <div className="container">
         <div className="max-w-md mx-auto text-center">
-          <h2 className="main__title text-3xl">{menuSection.title}</h2>
+          <h2 className="section__title">{menuSection.title}</h2>
           <div className="seperator mx-auto" />
           <p className="para__text">{menuSection.tagLine}</p>
           <div>
@@ -207,7 +207,7 @@ function Menu() {
                 <li
                   key={category}
                   className={`btn btn-primary ${
-                    selectedMenu === category ? "bg-primary" : "bg-black/5"
+                    selectedMenu === category ? "bg-primary" : "bg-black/5 dark:bg-bgSecondaryDark dark:text-white/90"
                   }`}
                   onClick={() => setSelectedMenu(category)}
                 >
@@ -228,7 +228,7 @@ function Menu() {
                   <li key={menuItem.id} className="group/card cursor-pointer">
                     <div
                       className="h-56 grid place-items-center bg-black/5 rounded-3xl group-hover/card:bg-primary ease-linear duration-200
-             | lap:h-40 "
+             | lap:h-40 | dark:bg-bgSecondaryDark dark:border dark:border-white/30"
                     >
                       <img
                         src={`/images/${menuItem.imageName}`}

@@ -26,8 +26,13 @@
 }
 
 @layer utilities {
-    .main__title {
+    .main__title,
+    .card__title {
         @apply text-4xl font-bold uppercase lap:text-6xl;
+    }
+
+    .card__title {
+        @apply text-xl;
     }
 
     .para__text {
@@ -37,4 +42,5 @@
     .seperator {
         @apply w-20 h-[2px] bg-seconday my-5;
     }
+    
 }

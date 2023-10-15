@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Menu from "./components/Menu/Menu";
 import Offers from "./components/Offers/Offers";
+import ScrollUp from "./components/ScrollUp/ScrollUp";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <About/>
       <Contact/>
       <Footer/>
+      <ScrollUp/>
     </div>
   )
 }

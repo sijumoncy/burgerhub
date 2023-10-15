@@ -3,10 +3,9 @@ import { HiMenuAlt1, HiSun, HiX } from "react-icons/hi";
 
 const NavList = [
   { id: 1, name: "Home", link: "#home" },
-  { id: 1, name: "About", link: "#about" },
-  { id: 1, name: "Menu", link: "#menu" },
-  { id: 1, name: "Review", link: "#review" },
-  { id: 1, name: "Contact", link: "#contact" },
+  { id: 2, name: "About", link: "#about" },
+  { id: 3, name: "Menu", link: "#menu" },
+  { id: 4, name: "Contact", link: "#contact" },
 ];
 
 function Navbar() {
@@ -18,16 +17,16 @@ function Navbar() {
       <div className="">
         <a href="#" className="text-2xl uppercase">
           <span className="text-primary">Burger</span>
-          <span className="text-seconday">Hub</span>
+          <span className="text-secondary">Hub</span>
         </a>
       </div>
 
       <div className={`${openNav ? '' : 'hidden'} absolute top-0 left-0 w-full py-14 border-b border-seconday bg-white
         | tabM:block tabM:static tabM:py-0 tabM:border-none tabM:ml-auto tabM:w-auto`}>
-        <ul className="text-primary flex flex-col text-center gap-5 tabM:flex-row">
+        <ul className="text-secondary flex flex-col text-center gap-5 tabM:flex-row">
           {NavList.map((nav) => (
             <li>
-              <a href={nav.link} className="hover:text-primary ease-in duration-200">{nav.name}</a>
+              <a href={nav.link} className="hover:text-secondary/50 ease-in duration-200">{nav.name}</a>
             </li>
           ))}
         </ul>

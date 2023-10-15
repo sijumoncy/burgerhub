@@ -21,7 +21,7 @@
         @apply inline-block text-sm py-3 px-8 text-center cursor-pointer rounded-md ease-linear duration-200;
   }
   .btn-primary{
-    @apply text-black bg-seconday hover:opacity-75;
+    @apply text-black bg-primary hover:opacity-75;
   }
 }
 
@@ -45,7 +45,7 @@
     }
 
     .seperator {
-        @apply w-20 h-[2px] bg-seconday my-5;
+        @apply w-20 h-[2px] bg-primary my-5;
     }
     
 }

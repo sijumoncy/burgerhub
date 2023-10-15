@@ -7,7 +7,7 @@ const cardData = [
     tagline: "Lorem ipsum dolor sit amet.",
     link: "#",
     imgName: "burger1.png",
-    bg:'bg-seconday'
+    bg:'bg-primary'
   },
   {
     id: 2,

@@ -20,8 +20,8 @@ export default {
     },
     extend: {
       colors:{
-        primary:'#f05179',
-        seconday:'#e8cd9e',
+        primary:'#e8cd9e',
+        secondary:'#f05179',
         textPara:'##9f9597',
       },
       keyframes:{

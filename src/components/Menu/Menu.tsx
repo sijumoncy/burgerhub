@@ -207,7 +207,7 @@ function Menu() {
                 <li
                   key={category}
                   className={`btn btn-primary ${
-                    selectedMenu === category ? "bg-seconday" : "bg-black/5"
+                    selectedMenu === category ? "bg-primary" : "bg-black/5"
                   }`}
                   onClick={() => setSelectedMenu(category)}
                 >
@@ -227,7 +227,7 @@ function Menu() {
                 menuItem.category === selectedMenu) && (
                   <li key={menuItem.id} className="group/card cursor-pointer">
                     <div
-                      className="h-56 grid place-items-center bg-black/5 rounded-3xl group-hover/card:bg-seconday ease-linear duration-200
+                      className="h-56 grid place-items-center bg-black/5 rounded-3xl group-hover/card:bg-primary ease-linear duration-200
              | lap:h-40 "
                     >
                       <img

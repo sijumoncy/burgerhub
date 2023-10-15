@@ -4,8 +4,37 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer{
+@layer base{
     body {
         @apply tracking-wider;
+    }
+
+    section {
+        @apply pt-16 pb-4 tab:pt-20;
+    }
+
+
+}
+
+@layer components {
+    .btn{
+        @apply inline-block text-sm py-3 px-8 text-center cursor-pointer rounded-md ease-linear duration-200;
+  }
+  .btn-primary{
+    @apply text-black bg-seconday hover:opacity-75;
+  }
+}
+
+@layer utilities {
+    .main__title {
+        @apply text-4xl font-bold uppercase lap:text-6xl;
+    }
+
+    .para__text {
+        @apply text-textPara text-xs leading-5;
+    }
+
+    .seperator {
+        @apply w-20 h-[2px] bg-seconday my-5;
     }
 }

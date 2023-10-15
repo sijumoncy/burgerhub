@@ -24,6 +24,14 @@ export default {
         seconday:'#e8cd9e',
         textPara:'##9f9597',
       },
+      keyframes:{
+        moveY:{
+          "50%": {transform : 'translateY(-1rem)'}
+        }
+      },
+      animation:{
+        'upDown':'moveY 2s linear infinite'
+      },
       container:{
         center:true,
         padding:{

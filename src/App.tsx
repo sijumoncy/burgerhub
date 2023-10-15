@@ -1,3 +1,4 @@
+import About from "./components/About/About";
 import Category from "./components/Category/Category";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
@@ -11,6 +12,7 @@ function App() {
       <Hero/>
       <Category/>
       <Offers/>
+      <About/>
     </>
   )
 }

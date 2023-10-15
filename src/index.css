@@ -27,12 +27,17 @@
 
 @layer utilities {
     .main__title,
-    .card__title {
+    .card__title,
+    .about__title {
         @apply text-4xl font-bold uppercase lap:text-6xl;
     }
 
     .card__title {
         @apply text-xl;
+    }
+
+    .about__title{
+        @apply text-3xl;
     }
 
     .para__text {
